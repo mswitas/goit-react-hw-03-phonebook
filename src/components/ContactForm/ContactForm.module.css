@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputWrapper>input {
+    width: 300px;
+}
+
+.form>button {
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 15px;    
+}
+
+.form>button:hover {
+    cursor: pointer;
+}
+
+.form>button:active {
+    background-color: #80669d;
+}
